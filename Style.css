@@ -1,0 +1,224 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
+
+body {
+    font-family: Georgia;
+    background-color: #2d3130;
+    width: 100%;
+    min-width: 200px;
+
+}
+
+.example {
+    background-color: #0a0e27;
+    height: auto;
+    padding: -8px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 33px;
+    border: solid;
+    color: black;
+
+}
+
+.example li {
+    font-size: 80%;
+}
+
+
+ul li {
+    display: inline;
+    margin: 1%;
+    padding: 4px;
+}
+
+ul li a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+section {
+    position: absolutr;
+    color: rgb(184, 243, 66);
+    background-color: #f8bbd024;
+    text-align: center;
+    padding: 5px;
+}
+
+.wc {
+    margin: 10%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: rgb(230, 227, 227);
+    color: rgb(24, 11, 202);
+    text-align: center;
+    width: 75%;
+}
+
+.button {
+    background-color: aqua;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 40px;
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    width: 60%;
+}
+
+.button:hover {
+    background-color: rgb(74, 219, 219)
+}
+
+div h2 {
+    color: rgb(233, 60, 30);
+}
+
+.wc img {
+    width: 110%;
+}
+
+nav {
+
+    text-align: center;
+    margin: 1px;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+nav p a {
+    color: aqua;
+
+}
+
+nav p a:hover {
+    color: rgb(122, 223, 27);
+}
+
+
+section {
+    margin: 10px;
+    text-align: center;
+    padding: 10px, 0px;
+
+}
+
+.images {
+    background-color: rgb(134, 168, 168);
+    color: #0a0e27;
+
+}
+
+.image {
+    display: inline-block;
+    width: 33%;
+    font-size: 18px;
+}
+
+.image img {
+    width: 100%;
+
+}
+
+.img1 {
+    width: 15%;
+
+}
+
+.img2 {
+    width: 15%;
+    margin-left: 25%;
+
+}
+
+.laptop img {
+    width: 500%;
+}
+
+.laptop p {
+    color: white;
+}
+
+.quote {
+    background-color: antiquewhite;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.quote p {
+    color: rgb(24, 36, 32);
+}
+
+.quote cite::before {
+    content: '~';
+}
+
+.quote cite {
+    color: rgb(12, 7, 39);
+}
+
+.quote p :hover {
+    background-color: aqua;
+}
+
+footer {
+    background-color: #0a0e27;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+footer li {
+    display: inline-block;
+}
+
+.lastpage p {
+    color: rgb(212, 241, 46);
+}
+
+@media screan and (max-with:480px) {
+    .example li {
+        display: block;
+        font-size: 12px;
+    }
+
+    section {
+        padding: 25px 0px 15px 0px;
+    }
+
+    .button {
+        display: block;
+        font-size: 15px;
+    }
+
+    wc.h2 {
+        font-size: 20px;
+    }
+
+    .images {
+        display: flex;
+    }
+
+    .images img {
+        width: 15%;
+        min-width: 60px;
+    }
+
+    .laptop img {
+        width: 15%;
+        min-width: 60px;
+    }
+
+    .laptop {
+        display: flex;
+    }
+
+    footer li {
+        display: block;
+    }
+
+
+}
